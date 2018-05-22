@@ -1,0 +1,21 @@
+body {
+  background-color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+header {
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+
+footer {
+  background-color: #59b6af;
+  width: 200px;
+}
